@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>User Registration</h2>
+        <form action="#" method="post"  id="registrationForm" >
+            <label for="name">Name <span>*</span></label>
+            <input type="text" id="name" name="name" placeholder="Name..." required>
+            
+            <label for="email">Email <span>*</span></label>
+            <input type="text" id="email" name="email" placeholder="Email..." required>
+
+            <label for="phoneNumber">Phone Number <span>*</span></label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="phoneNumber..." required>
+            
+            <label for="age">Age <span>*</span></label>
+            <input type="number" id="age" name="age" placeholder="Age..." required>
+            
+            <label for="pincode">Pincode <span>*</span></label>
+            <input type="text" id="pincode" name="pincode" placeholder="Pincode..."  required>
+            
+            <label for="aadharNo">Aadhar No <span>*</span></label>
+            <input type="text" id="aadharNo" name="aadharNo" placeholder="AadharNo..."  required>
+            <label>Password </label>
+            <input id="password" type="text" class="password" placeholder="password" required >
+            <button id="signInButton" type="submit" value="Register">SUBMIT</button>
+        </form>
+    </div>
+    <div class="container1">
+        <form action="#" method="post"id="loginForm">
+            <label for="phoneNumber">Phone Number <span>*</span></label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="phoneNumber..." required>
+            <label>Password </label>
+            <input id="password" type="text" class="password" placeholder="password" required >
+            <button id="loginInButton" type="submit" value="Register">SUBMIT</button>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.0/axios.min.js" integrity="sha512-aoTNnqZcT8B4AmeCFmiSnDlc4Nj/KPaZyB5G7JnOnUEkdNpCZs1LCankiYi01sLTyWy+m2P+W4XM+BuQ3Q4/Dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="s.js"></script>
+</body>
+</html>
